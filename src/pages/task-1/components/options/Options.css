@@ -1,0 +1,19 @@
+.Options__Body
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;  
+    
+}
+
+.Options__Icons
+{
+    display: flex;
+    flex-direction: row;
+    margin: 3rem 0rem;
+}
+
+@media screen and (max-width : 1150)
+{
+    
+}

@@ -1,0 +1,32 @@
+.Options__Main
+{
+    display: inline;
+    flex-direction: column;
+    align-items: center ;
+    margin : 0 10% 0 0;
+}
+
+.Options__Checkbox
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 35px 0 0 10px;
+}
+
+.Options__Checkbox p{
+    margin: 0 0 0 15px;
+}
+
+.Options__Checkbox img{
+    cursor: pointer;
+}
+
+@media screen and (max-width : 1150px)
+{
+    .Options__Main
+    {
+        margin : 0 0 0 0;
+    }
+}

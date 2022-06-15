@@ -1,0 +1,15 @@
+.Logo
+{
+    display: flex;
+    flex-direction: row;
+    width: 10px;
+    height: 40px;
+}
+
+.Logo__png
+{
+    display: flex;
+    width: 100px;
+    height: 25px;
+    margin: 10px 30px;
+}

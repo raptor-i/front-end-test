@@ -1,0 +1,6 @@
+.Button_Main
+{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 20rem 5rem 0;
+}

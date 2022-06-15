@@ -1,37 +1,52 @@
 .Progress__body
-{
-    flex: 1;
+{   
     display: flex;
+    justify-content: center;
     flex-direction: row;
+    padding: 3% 10% 2% 10%;
     align-items: center;
-    margin: 4rem 25rem;
+    
 }
 
-.Progress__left-arrow
+.Progress__Top
 {
-    margin: 15px;
+    display:inline-block;
+    justify-content: center;
 }
 
 .Progress__bar
 {
-
+    margin: 0.4rem 0rem;
 }
-
 .Progress__Back-text
 {
-    margin-right: 20px;
+    margin: 0 1rem;
+    cursor: pointer;
 }
 
-.Progress__right-arrow
+
+.Progress__Next-text
 {
-    margin-left: 20px;
+    margin : 0 1rem;
+    cursor: pointer;
 }
 
-@media screen and (max-width : 650px){
-    .Progress__right-arrow
+.Progress__Back-Arrow
 {
-    max-height: 100% !important ;
-    max-width: 100% !important ;
+    cursor: pointer;
 }
-    
+
+.Progress__Next-arrow
+{
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 1150px){
+
+}
+
+@media screen and (max-width: 550px){
+
 }

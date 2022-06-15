@@ -1,0 +1,30 @@
+.Option3__Main
+{
+    display: inline-block;
+    margin: 2.5rem 5rem;
+}
+
+.Option3__Checkbox
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 30px 0 0 10px;
+}
+
+.Option3__Checkbox p{
+    margin: 0 0 0 15px;
+}
+
+.Option3__Checkbox img{
+    cursor: pointer;
+}
+
+
+@media screen and (max-width : 1150px)
+{
+    .Option3__Main
+    {
+        margin: 2.5rem 1rem;
+    }
+}

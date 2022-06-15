@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="182" height="41" viewBox="0 0 182 41">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 923 210">
+      <image width="923" height="210" xlink:href="logo-tek-image.png"/>
+    </pattern>
+  </defs>
+  <rect id="logo-tek" width="182" height="41" fill="url(#pattern)"/>
+</svg>

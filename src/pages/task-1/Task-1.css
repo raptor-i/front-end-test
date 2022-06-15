@@ -1,22 +1,39 @@
-.Body__Task1
-{
-    background-color: #F3F4F6;
-    margin: 5rem 10rem;
-    border-radius: 22px;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-
-@media screen and (max-width : 650px)
+.Task1__Body
 {
-    .Body__Task1
-    {
-        margin: 0rem 0rem;
-    }
-    .Task1__Body
-    {
-        background-color: #f6f3f3;
-        margin: 0rem 0rem;
-        width: 100%;
-        height: 100vh;
-    }
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.Main__Body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #f6f3f4;
+  width: 85%;
+  margin : 5rem 8%;
+  min-height: 500px;
+  border-radius: 22px; 
+}
+
+.Task1__Progress
+{
+  display: flex;
+  justify-content: center;
+}
+.Logo__Task1
+{
+  display: flex;
+  justify-content: flex-end;
+  margin: -4rem 32rem ;
+}
+@media screen and (max-width: 750px){
+
 }
