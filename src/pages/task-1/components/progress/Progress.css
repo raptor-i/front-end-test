@@ -44,7 +44,10 @@
 
 
 @media screen and (max-width: 1150px){
-
+    .Progress__body
+{   
+    padding: 3% 0% 2% 0%; 
+}
 }
 
 @media screen and (max-width: 550px){

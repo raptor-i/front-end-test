@@ -2,8 +2,7 @@
 {
     display: flex;
     justify-content: center;
-    flex-direction: row;  
-    
+    flex-direction: row;     
 }
 
 .Options__Icons
@@ -15,5 +14,8 @@
 
 @media screen and (max-width : 1150)
 {
-    
+    .Options__Icons
+    {
+        flex-direction: column;
+    }
 }
