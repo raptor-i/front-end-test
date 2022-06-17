@@ -54,8 +54,8 @@ const Step = () => {
   return (
     <div className="Step__Body">
       <div className="Step__Main">
-        <h1>Wonderful!</h1>
-        <h1>We already know how to turn your project into spectacular visualization</h1>
+
+        <h1>Wonderful! <br></br>We already know how to turn your project into spectacular visualization</h1>
         <p>The last step is to choose the visualization service/services you need, and we’re ready to begin crafting your project.</p>
       </div>
     </div>

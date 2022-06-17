@@ -50,6 +50,40 @@
 }
 }
 
-@media screen and (max-width: 550px){
+@media screen and (max-width: 950px){
+    .Progress__body
+    {   
+        padding: 4% 0% 0% 0%; 
+        margin: 0 0 5% 0;
+    }
+    .Progress__Next-text
+    {
+        display: none;
+    }
+    .Progress__Back-text
+    {
+    display: none;
+    }
 
+    .Progress__Back-Arrow
+    {
+    margin: 0 5rem;
+    }
+
+    .Progress__Next-arrow
+    {
+    margin: 0 5rem;
+    }   
+}
+
+@media screen and (max-width: 835px){
+    .Progress__Back-Arrow
+    {
+    margin: 0 2rem;
+    }
+
+    .Progress__Next-arrow
+    {
+    margin: 0 2rem;
+    }   
 }

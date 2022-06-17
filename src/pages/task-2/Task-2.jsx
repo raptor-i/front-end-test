@@ -1,8 +1,14 @@
 import React from 'react'
 
+import 'aframe';
+import {Entity, Scene} from 'aframe-react';
+import StockImage from "./Image/Image.jpg"
+
 const Task2 = () => {
   return (
-    <div>Task-2</div>
+    <Scene>
+    <Entity primitive='a-sky' src={StockImage}/>
+  </Scene>
   )
 }
 

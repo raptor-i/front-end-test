@@ -1,7 +1,12 @@
-.Button_Main
-{
-    display: flex;
-    justify-content: flex-end;
-    margin: 0 20rem 5rem 0;
+.Button_Main {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 20rem 5rem 0;
+}
 
+@media screen and (max-width: 900px) {
+  .Button_Main {
+    justify-content: center;
+    margin: 0 0rem 5rem 0;
+  }
 }
