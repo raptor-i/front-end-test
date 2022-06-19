@@ -1,16 +1,24 @@
+
 .body-home
 {
-    background: linear-gradient(90deg, rgba(0,2,93,1) 0%, rgba(0,4,173,1) 100%);
+    display: flex;
+    justify-content: center;
+    margin: 20rem 0 ;
 }
-
+.home__buttons
+{
+    display: flex;
+}
+.home__buttons button 
+{
+  margin : 0 7rem;
+}
 .task1-button
 {
-    position: absolute;
+
     height: 5rem;
     width: 15rem;
     border-radius: 20px;
-    top: 25rem;
-    left: 30rem;
     border: 0;
     background-color: blue;
     color: white;
@@ -23,12 +31,9 @@
 
 .task2-button
 {
-    position: absolute;
     height: 5rem;
     width: 15rem;
     border-radius: 20px;
-    top: 25rem;
-    left: 75rem;
     border: 0;
     font-weight: 500;
     font-size: 20px;
